@@ -1,0 +1,41 @@
+Esse é meu primeiro codigo se tiver algo errado me ajuda por favor 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Minha Primeira Página com CSS</title>
+
+  <!-- CSS interno -->
+  <style>
+    body {
+      background-color: #f4f4f4;
+      font-family: Arial, sans-serif;
+      color: #333;
+      text-align: center;
+    }
+
+    h1 {
+      color: #0066cc;
+      margin-top: 50px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .destaque {
+      color: red;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Olá, Mundo do CSS!</h1>
+  <p>Essa é a <span class="destaque">minha primeira página</span> com estilo CSS.</p>
+  <p>Feita por Alex!</p>
+
+  <img src="joinha.jpg" alt="Ta sem imagem 😔" width="300" alt="" />
+</body>
+</html>
